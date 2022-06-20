@@ -1,0 +1,1 @@
+Create Table Store(Name Varchar(20) PRIMARY KEY, Location Varchar(30) NOT NULL, ManagerName Varchar(30) UNIQUE);
