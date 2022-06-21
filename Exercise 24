@@ -1,0 +1,1 @@
+Select Prodid, Substr(Pdesc,1,5) "PDESC_FIVE", Category from Product;
