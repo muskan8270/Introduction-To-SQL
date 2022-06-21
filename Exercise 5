@@ -1,0 +1,1 @@
+Update Product SET Discount = 25 Where Category = 'Sports';
