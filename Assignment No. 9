@@ -1,0 +1,1 @@
+Alter TABLE Supplier Add City VARCHAR2(10);
