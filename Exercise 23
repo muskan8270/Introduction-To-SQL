@@ -1,0 +1,1 @@
+Select Prodid, Pdesc, Category from Product Where LOWER(category) = 'electronics';
