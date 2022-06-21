@@ -1,0 +1,1 @@
+Select NVL(Pdesc,'No Description') "PDESC", Discount FROM Product;
