@@ -1,0 +1,16 @@
+Display month of sale and number of sales done in that month sorted in descending order of sales.
+
+Salesman (Sid, Sname, Location)
+Product (Prodid, Pdesc, Price, Category, Discount)
+Sale (Saleid, Sid, Sldate, Amount)
+Saledetail (Saleid, Prodid, Quantity)
+
+Exp Output:
+MONTH	NUMBER_SALE
+January	2
+February	2
+March	1
+June	1
+
+Ans: 
+Select TO_CHAR(Sldate,'Month') "MONTH", Count(Saleid) "NUMBER_SALE" From Sale  GROUP BY TO_CHAR(Sldate,'Month') ORDER BY 2 DESC;
