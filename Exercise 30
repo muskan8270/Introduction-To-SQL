@@ -1,0 +1,2 @@
+Select Prodid, SUM(Quantity) "QTY_SOLD" FROM Saledetail WHERE QUANTITY>1
+GROUP BY Prodid HAVING COUNT(QUANTITY)>1;
