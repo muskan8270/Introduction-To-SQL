@@ -1,0 +1,1 @@
+Select Sid, Sname, Location From Salesman WHERE Sname  LIKE('%e%') AND Location  LIKE('%o%') UNION ALL Select Sid, Sname, Location From Salesman WHERE Sname  LIKE('%a%') AND LOCATION  LIKE('%a%');
