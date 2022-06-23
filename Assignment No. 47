@@ -1,0 +1,5 @@
+Select Sname, AVG(Quotedprice) 
+"Average quoted price" From Quotation 
+Where Qstatus='Closed'
+Group By Sname
+Having AVG(Quotedprice)>500;
