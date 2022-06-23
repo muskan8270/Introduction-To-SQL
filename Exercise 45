@@ -1,0 +1,1 @@
+Select Id, Ename, E.Compid, C.Make FROM Employee E INNER JOIN Computer C on E.Compid=C.Compid Where C.Model IN('Precision','Edge');
