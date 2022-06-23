@@ -1,0 +1,1 @@
+Select Prodid, Pdesc, Category, Discount FROM Product Where Discount<10 UNION Select Prodid, Pdesc, Category, Discount FROM Product Where Category='Sports';
