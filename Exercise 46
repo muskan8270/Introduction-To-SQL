@@ -1,0 +1,6 @@
+Select E.Dept, Count(C.Make) 
+"NUMBER OF COMPUTERS" FROM Employee E INNER JOIN 
+Computer C ON E.Compid = C.Compid Where
+C.Make='Dell'
+GROUP 
+BY E.Dept;
