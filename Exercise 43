@@ -1,0 +1,4 @@
+Select 'S' Type, Sid "ID", Sname "DETAILS" FROM Salesman
+UNION ALL
+Select 'P' Type, Prodid "ID", Category "DETAILS" FROM
+Product;
