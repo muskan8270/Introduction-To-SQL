@@ -1,0 +1,2 @@
+Select Pymtmode, Count(*) "PYMTCOUNT"
+From Orders Where TO_CHAR(Pymtdate,'YYYY')<2015 GROUP BY Pymtmode Having Count(*)>1;
